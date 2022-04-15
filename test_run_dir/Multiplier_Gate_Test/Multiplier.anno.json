@@ -1,0 +1,31 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/Multiplier_Gate_Test/Multiplier.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Multiplier|Multiplier>io_output_bits",
+    "sources":[
+      "~Multiplier|Multiplier>io_op",
+      "~Multiplier|Multiplier>io_src_a",
+      "~Multiplier|Multiplier>io_src_b"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Multiplier|Multiplier>io_output_valid",
+    "sources":[
+      "~Multiplier|Multiplier>io_op",
+      "~Multiplier|Multiplier>io_valid"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/Multiplier_Gate_Test"
+  }
+]

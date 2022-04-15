@@ -1,0 +1,24 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly MultiplierTest -- -DwriteVcd=1, Some(b42658a0-f0f8-4ce5-b8e8-58a161313cfe), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"224","parents":[]},"eventTime":1649748676462,"message":"Compiling root","dataKind":"compile-task","data":{"target":{"uri":"file:/home/fizza/Documents/mdu_rv32/#root/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/fizza/Documents/mdu_rv32/src/main/scala/MduControl.scala"},"buildTarget":{"uri":"file:/home/fizza/Documents/mdu_rv32/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/fizza/Documents/mdu_rv32/src/main/scala/Multiplier.scala"},"buildTarget":{"uri":"file:/home/fizza/Documents/mdu_rv32/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"224","parents":[]},"eventTime":1649748676471,"message":"Compiled root","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/fizza/Documents/mdu_rv32/#root/Compile"},"errors":0,"warnings":0,"time":9}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"225","parents":[]},"eventTime":1649748676475,"message":"Compiling root-test","dataKind":"compile-task","data":{"target":{"uri":"file:/home/fizza/Documents/mdu_rv32/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/fizza/Documents/mdu_rv32/src/test/scala/MultiplierTest.scala"},"buildTarget":{"uri":"file:/home/fizza/Documents/mdu_rv32/#root/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"225","parents":[]},"eventTime":1649748676479,"message":"Compiled root-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/fizza/Documents/mdu_rv32/#root/Test"},"errors":0,"warnings":0,"time":4}})[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMultiplierTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Multiplier Gate Test[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32mMultiplierTest:\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- Multiplier Gate Test\u001b[0m"})[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 2 seconds, 631 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[36mRun completed in 2 seconds, 631 milliseconds.\u001b[0m\n\u001b[36mTotal number of tests run: 1\u001b[0m\n\u001b[36mSuites: completed 1, aborted 0\u001b[0m\n\u001b[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0\u001b[0m\n\u001b[32mAll tests passed.\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 3 s, completed Apr 12, 2022 12:31:19 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

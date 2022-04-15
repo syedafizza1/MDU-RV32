@@ -1,1 +1,11 @@
 1649413050510:testOnly MultiplierTest
+1649742462575:testOnly components.TopTest -- -DwriteVcd=1
+1649742505555:testOnly MultiplierTest -- -DwriteVcd=1
+1649742848719:testOnly MDU_RV32.MultiplierTest -- -DwriteVcd=1
+1649742856718:testOnly MultiplierTest -- -DwriteVcd=1
+1649826594952:testOnly MDU_RV32.MultiplierTest -- -DwriteVcd=1
+1649826599757:testOnly MultiplierTest -- -DwriteVcd=1
+1649928003688:testOnly MDU_RV32.MultiplierTest -- -DwriteVcd=1
+1649928008893:testOnly MultiplierTest -- -DwriteVcd=1
+1649930361872:testOnly MDU_RV32.MultiplierTest -- -DwriteVcd=1
+1649930364936:testOnly MultiplierTest -- -DwriteVcd=1

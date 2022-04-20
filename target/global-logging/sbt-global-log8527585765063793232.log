@@ -1,4 +1,6 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MultiplierTest, org.scalatest.tools.Framework$$anon$1@733a4dbf, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly MultiplierTest -- -DwriteVcd=1, Some(bf054594-a735-461a-ae2a-1b28efa12664), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mMultiplierTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Multiplier Gate Test[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 4 seconds, 604 milliseconds.[0m[0m
@@ -6,5 +8,5 @@
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
-[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	MultiplierTest[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 9 s, completed Apr 20, 2022 3:12:08 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

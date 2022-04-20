@@ -9,3 +9,8 @@
 1649928008893:testOnly MultiplierTest -- -DwriteVcd=1
 1649930361872:testOnly MDU_RV32.MultiplierTest -- -DwriteVcd=1
 1649930364936:testOnly MultiplierTest -- -DwriteVcd=1
+1650264097655:testOnly components.TopTest -- -DwriteVcd=1
+1650264238030:testOnly components.TopTest -- -DwriteVcd=1 -DmemFile=/home/fizza/hex.txt
+1650264461366:testOnly MDU_RV32.MultiplierTest -- -DwriteVcd=1
+1650264465459:testOnly components.TopTest -- -DwriteVcd=1 -DmemFile=/home/fizza/hex.txt
+1650264473094:testOnly MultiplierTest -- -DwriteVcd=1

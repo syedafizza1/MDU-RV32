@@ -1,0 +1,16 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly MultiplierTest -- -DwriteVcd=1, Some(e03a25cb-4d46-4a54-aa6a-060fbd193b2b), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/fizza/Documents/mdu_rv32/target/scala-2.12/test-classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fizza/Documents/mdu_rv32/src/test/scala/MultiplierTest.scala:13:25: value scalatest is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m      c.io.src_a.poke(2.scalatest)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fizza/Documents/mdu_rv32/src/test/scala/MultiplierTest.scala:14:26: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.SInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m      c.io.src_b.poke(-2.S)[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Apr 20, 2022 12:39:49 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
